@@ -4,9 +4,8 @@
 
 ## 🖼️ Preview
 
-![Project Preview](./image.png)
+![Project Preview](images/image.PNG)
 
-🔗 **Live Demo:** [www.example/12/3.com](http://www.example/12/3.com)
 
 ## 🎯 Features
 
