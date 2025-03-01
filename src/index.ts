@@ -2,7 +2,6 @@ const getUserName = document.querySelector('#user') as HTMLInputElement;
 const formSubmit = document.querySelector('#form') as HTMLFormElement;
 const main_container = document.querySelector('.main_container') as HTMLElement;
 
-
 interface User {
   id: number;
   avatar_url: string;
@@ -33,15 +32,14 @@ function displayUI(userInfo: User) {
   main_container.insertAdjacentHTML(
     'beforeend',
     `
-    <div class='card'>
-      <img src="${avatar_url}" alt="${login}" />
-      <hr />
-      <div class="card-footer">
+      <div class='card'>
         <img src="${avatar_url}" alt="${login}" />
-        <a href="${url}" target="_blank" rel="noopener noreferrer">Github</a>
+        <hr />
+        <div class="card-footer">
+          <a href="${url}" target="_blank" rel="noopener noreferrer">Github</a>
+        </div>
       </div>
-    </div>
-    `
+      `
   );
 }
 
